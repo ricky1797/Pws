@@ -6,16 +6,22 @@ import { Main,
   Centerdiv,
   Toph1tag,
   Slideshow,
-  SlideshowSlider,
   Slide,
   SlideshowDots,
   SlideshowDot,
-  Container
+  Container,
+  Div1,
+  Div2
 
 } from '../styles/RiaTrackerElem'
 
 import RiaLogo from '../images/ria.png'
 import MexicoTable from '../components/MexicoTable'
+import GuatemalaTable from '../components/GuatemalaTable'
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 
 const RiaTracker = () => {
 
@@ -29,7 +35,7 @@ const RiaTracker = () => {
         <Toph1tag>Precios de Hoy / Prices of Today</Toph1tag>
       </Topdiv>
       <Centerdiv>
-          <MexicoTable/>
+      
     </Centerdiv>
     </Container>
     </Main>

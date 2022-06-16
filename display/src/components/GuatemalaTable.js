@@ -23,19 +23,19 @@ import { Main,
 
 import React from 'react'
 
-const MexicoTable = () => {
+const GuatemalaTable = () => {
   return (
     <Tablemaindiv>
     <Table>
     <Thead>
         <Tr>
-        <Th>MEXICO</Th>
+        <Th>Guatemala</Th>
             <Th>Surcusal/Store</Th>
             <Th>Precio/Price</Th>
         </Tr>
     </Thead>
     <Tbody>
-    {MRiaData.map((data =>
+    {GRiaData.map((data =>
   <Tr>
     <Td><Tiendas src={data.logo}/></Td>
 <Td>{data.name}</Td>
@@ -49,4 +49,4 @@ const MexicoTable = () => {
   )
 }
 
-export default MexicoTable
+export default GuatemalaTable

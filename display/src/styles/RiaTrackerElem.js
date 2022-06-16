@@ -22,7 +22,7 @@ export const Topdiv = styled.div`
 
 `
 export const Centerdiv = styled.div`
-background:red ;
+
 `
 
 export const Toph1tag = styled.h1`
@@ -97,6 +97,10 @@ border-radius: 40px;
 export const SlideshowDots = styled.div`
 text-align: center;
 `
+
+export const Tablemaindiv = styled.div`
+
+`
 export const SlideshowDot = styled.div`
  display: inline-block;
   height: 20px;
@@ -108,4 +112,9 @@ export const SlideshowDot = styled.div`
   &.active {
     color: #6a0dad;
   }
+`
+
+export const Div1 = styled.div`
+`
+export const Div2 = styled.div`
 `
