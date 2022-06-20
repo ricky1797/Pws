@@ -37,9 +37,9 @@ const GuatemalaTable = () => {
     <Tbody>
     {GRiaData.map((data =>
   <Tr>
-    <Td><Tiendas src={data.logo}/></Td>
-<Td>{data.name}</Td>
-<Td>{data.price}</Td>
+    <Td><Tiendas src={data.Logo}/></Td>
+<Td>{data.Name}</Td>
+<Td>${data.Price}</Td>
 </Tr>
 ))}
 

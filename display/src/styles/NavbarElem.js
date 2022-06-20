@@ -35,7 +35,8 @@ export const NavMenu = styled.div`
 `;
 
 export const NavItem = styled.li`
-  
+display:inline;
+padding:0px 10px;
 `;
 
 export const NavBtn = styled.nav`

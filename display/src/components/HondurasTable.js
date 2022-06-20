@@ -19,23 +19,23 @@ import { Main,
     Tablemaindiv
   
   } from '../styles/RiaTrackerElem'
-  import {MRiaData, GRiaData, ESRiaData} from '../data/RiaData'
+  import {MRiaData, GRiaData, HRiaData} from '../data/RiaData'
 
 import React from 'react'
 
-const MexicoTable = () => {
+const HondurasTable = () => {
   return (
     <Tablemaindiv>
     <Table>
     <Thead>
         <Tr>
-        <Th>MEXICO</Th>
+        <Th>HONDURAS</Th>
             <Th>Surcusal/Store</Th>
             <Th>Precio/Price</Th>
         </Tr>
     </Thead>
     <Tbody>
-    {MRiaData.map((data =>
+    {HRiaData.map((data =>
   <Tr>
     <Td><Tiendas src={data.Logo}/></Td>
 <Td>{data.Name}</Td>
@@ -49,4 +49,4 @@ const MexicoTable = () => {
   )
 }
 
-export default MexicoTable
+export default HondurasTable
